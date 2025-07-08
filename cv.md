@@ -36,3 +36,9 @@ namespace Mazes
     }
 } 
 ~~~
+# Education:
+* Tomsk Polytechnic University
+* Ulearn.me courses
+# English:
+* B1
+
