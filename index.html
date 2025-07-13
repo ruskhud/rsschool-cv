@@ -80,17 +80,10 @@
         </section>
         <section class="section" id="code">
           <h2 class="section-title">Code</h2>
-          <pre class="pre"><code>public static string RemoveStartSpaces(string text)
-{
-	var x = 0;
-    while (x &lt text.Length)
-	{
-    	if (char.IsWhiteSpace(text[x]))
-        	x++;
-        else
-        	break;
-	}
-	return text.Substring(x);
+          <pre class="pre"><code>function factorial(n) {
+  if(n &lt; 0) return null;
+  if (n &lt;= 1) return 1;
+  return n * factorial(n-1);
 }</code></pre>
         </section>
         <section class="section section-education" id="education">
